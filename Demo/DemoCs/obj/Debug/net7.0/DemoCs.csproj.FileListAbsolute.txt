@@ -1,0 +1,15 @@
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\bin\Debug\net7.0\DemoCs.exe
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\bin\Debug\net7.0\DemoCs.deps.json
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\bin\Debug\net7.0\DemoCs.runtimeconfig.json
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\bin\Debug\net7.0\DemoCs.dll
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\bin\Debug\net7.0\DemoCs.pdb
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\DemoCs.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\DemoCs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\DemoCs.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\DemoCs.AssemblyInfo.cs
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\DemoCs.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\DemoCs.dll
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\refint\DemoCs.dll
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\DemoCs.pdb
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\DemoCs.genruntimeconfig.cache
+C:\Users\MSI\source\repos\Demo\Demo\DemoCs\obj\Debug\net7.0\ref\DemoCs.dll
