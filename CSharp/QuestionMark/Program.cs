@@ -11,4 +11,7 @@ Console.WriteLine(c + d== 0.3M);
 
 string fullname = null;
 //int i = null;
-Nullable<int> i = null;
+//c# cũ
+//Nullable<int> i = null;
+//c# mới
+bool? check = null;
