@@ -1,0 +1,15 @@
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\bin\Debug\net7.0\ForIfWhite.exe
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\bin\Debug\net7.0\ForIfWhite.deps.json
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\bin\Debug\net7.0\ForIfWhite.runtimeconfig.json
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\bin\Debug\net7.0\ForIfWhite.dll
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\bin\Debug\net7.0\ForIfWhite.pdb
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\ForIfWhite.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\ForIfWhite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\ForIfWhite.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\ForIfWhite.AssemblyInfo.cs
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\ForIfWhite.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\ForIfWhite.dll
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\refint\ForIfWhite.dll
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\ForIfWhite.pdb
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\ForIfWhite.genruntimeconfig.cache
+C:\Users\MSI\source\repos\Demo\Demo\ForIfWhite\obj\Debug\net7.0\ref\ForIfWhite.dll
