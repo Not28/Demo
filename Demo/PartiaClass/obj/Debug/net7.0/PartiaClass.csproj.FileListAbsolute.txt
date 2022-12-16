@@ -1,0 +1,15 @@
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\bin\Debug\net7.0\PartiaClass.exe
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\bin\Debug\net7.0\PartiaClass.deps.json
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\bin\Debug\net7.0\PartiaClass.runtimeconfig.json
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\bin\Debug\net7.0\PartiaClass.dll
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\bin\Debug\net7.0\PartiaClass.pdb
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\PartiaClass.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\PartiaClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\PartiaClass.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\PartiaClass.AssemblyInfo.cs
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\PartiaClass.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\PartiaClass.dll
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\refint\PartiaClass.dll
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\PartiaClass.pdb
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\PartiaClass.genruntimeconfig.cache
+C:\Users\MSI\source\repos\Demo\Demo\PartiaClass\obj\Debug\net7.0\ref\PartiaClass.dll
