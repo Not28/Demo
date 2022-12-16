@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCs", "DemoCs\DemoCs.csproj", "{1BF6B5C8-F927-4919-90C0-4884E602C3E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoCs", "DemoCs\DemoCs.csproj", "{1BF6B5C8-F927-4919-90C0-4884E602C3E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switchcase", "Switchcase\Switchcase.csproj", "{E8B8D6EB-886D-41B4-8F3B-7936F36D8369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switchcase", "Switchcase\Switchcase.csproj", "{E8B8D6EB-886D-41B4-8F3B-7936F36D8369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForIfWhite", "ForIfWhite\ForIfWhite.csproj", "{9007FC4F-9988-4406-A4A1-F1F62EBFE807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForIfWhite", "ForIfWhite\ForIfWhite.csproj", "{9007FC4F-9988-4406-A4A1-F1F62EBFE807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTryParse", "RegexTryParse\RegexTryParse.csproj", "{AE6AC503-E58A-49B4-A78A-D32D7B772E3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9007FC4F-9988-4406-A4A1-F1F62EBFE807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9007FC4F-9988-4406-A4A1-F1F62EBFE807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9007FC4F-9988-4406-A4A1-F1F62EBFE807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6AC503-E58A-49B4-A78A-D32D7B772E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6AC503-E58A-49B4-A78A-D32D7B772E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6AC503-E58A-49B4-A78A-D32D7B772E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6AC503-E58A-49B4-A78A-D32D7B772E3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
