@@ -98,10 +98,8 @@ foreach (var st in list.Where(stu => stu.RollNumber >2))
 
 //các phương thức có sẵn trong list
 list.ForEach(Console.WriteLine);
-
-
-//2 cái này giống nhau
 list.ForEach(stu => Console.WriteLine(stu));
+
 list.ForEach(
         stu =>
         {
@@ -112,3 +110,7 @@ list.ForEach(
         }
     );
 
+//kết hợp lamda với phương thức có sẵn trong list
+list.Where(stu => stu.RollNumber > 2)
+    .ToList()
+    .ForEach(Console.WriteLine);
