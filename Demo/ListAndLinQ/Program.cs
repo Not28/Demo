@@ -84,3 +84,6 @@ foreach (var st in (from stu in list
 {
     Console.WriteLine(st);
 }
+
+//linq to object sytle 2
+var liststu = list.Where(stu=>stu.RollNumber > 2);
