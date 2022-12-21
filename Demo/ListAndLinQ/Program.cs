@@ -89,3 +89,9 @@ foreach (var st in (from stu in list
 var liststu = list.Where(stu=>stu.RollNumber > 2);
  foreach (var st in liststu)
 { Console.WriteLine(st); }
+
+//linq to object sytle 2 rút gọn
+foreach (var st in list.Where(stu => stu.RollNumber >2))
+{
+    Console.WriteLine(st);
+}
