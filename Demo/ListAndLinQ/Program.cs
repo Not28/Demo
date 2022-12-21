@@ -1,6 +1,4 @@
-﻿
-
-Console.OutputEncoding = Encoding.Unicode;
+﻿Console.OutputEncoding = Encoding.Unicode;
 Console.InputEncoding = Encoding.Unicode;
 
 List<Student> list = new()
@@ -65,8 +63,20 @@ foreach (var stu in list)
         Console.WriteLine(stu);
     }
 }
-Console.WriteLine("-------------------------------------");
+Console.WriteLine("--------------------------");
 //linq to object style 1
+
+//var lisstu = from stu in list 
+//             where stu.RollNumber > 2
+//             select stu;
+
+//foreach (var st in lisstu)
+//{
+//    Console.WriteLine(st);
+//}
+
+//linq to object style 1 rút gọn
+
 
 foreach (var st in (from stu in list
                     where stu.RollNumber > 2
