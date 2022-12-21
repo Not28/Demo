@@ -95,3 +95,20 @@ foreach (var st in list.Where(stu => stu.RollNumber >2))
 {
     Console.WriteLine(st);
 }
+
+//các phương thức có sẵn trong list
+list.ForEach(Console.WriteLine);
+
+
+//2 cái này giống nhau
+list.ForEach(stu => Console.WriteLine(stu));
+list.ForEach(
+        stu =>
+        {
+            if (stu.RollNumber >2)
+            {
+                Console.WriteLine(stu);
+            }
+        }
+    );
+
