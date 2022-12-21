@@ -9,17 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switchcase", "Switchcase\Sw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForIfWhite", "ForIfWhite\ForIfWhite.csproj", "{9007FC4F-9988-4406-A4A1-F1F62EBFE807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTryParse", "RegexTryParse\RegexTryParse.csproj", "{AE6AC503-E58A-49B4-A78A-D32D7B772E3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegexTryParse", "RegexTryParse\RegexTryParse.csproj", "{AE6AC503-E58A-49B4-A78A-D32D7B772E3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartiaClass", "PartiaClass\PartiaClass.csproj", "{E4FAF755-8639-4D08-B5AF-F737EF5F76DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartiaClass", "PartiaClass\PartiaClass.csproj", "{E4FAF755-8639-4D08-B5AF-F737EF5F76DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgumentAndParams", "ArgumentAndParams\ArgumentAndParams.csproj", "{A49B6093-E569-4BAE-A070-6C328074D428}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgumentAndParams", "ArgumentAndParams\ArgumentAndParams.csproj", "{A49B6093-E569-4BAE-A070-6C328074D428}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopAbstraction", "OopAbstraction\OopAbstraction.csproj", "{D382A8FD-4283-4858-B812-8E5BCDF8A68D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopAbstraction", "OopAbstraction\OopAbstraction.csproj", "{D382A8FD-4283-4858-B812-8E5BCDF8A68D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopEncapsulation", "OopEncapsulation\OopEncapsulation.csproj", "{344EF331-8B02-47F9-AD60-12CC88925461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopEncapsulation", "OopEncapsulation\OopEncapsulation.csproj", "{344EF331-8B02-47F9-AD60-12CC88925461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopEncapsulationCont", "OopEncapsulationCont\OopEncapsulationCont.csproj", "{024FD033-EE19-4F7F-BA46-D2CCCB18FBCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopEncapsulationCont", "OopEncapsulationCont\OopEncapsulationCont.csproj", "{024FD033-EE19-4F7F-BA46-D2CCCB18FBCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopPolymorphism", "OopPolymorphism\OopPolymorphism.csproj", "{847663AA-5E90-423C-95F5-1D41B1CC306A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopPolymorphismOverited", "OopPolymorphismOverited\OopPolymorphismOverited.csproj", "{8F89B1F5-E346-4DE0-BC9A-059EEE74DA2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopPolymorphsmInterface", "OopPolymorphsmInterface\OopPolymorphsmInterface.csproj", "{5D1D7E6D-6A2F-4FB6-BE45-D6643396A493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionMethod", "ExlotionMethod\ExtentionMethod.csproj", "{ABC70263-D75C-49B2-8FDB-23CE1BC4EC09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +71,22 @@ Global
 		{024FD033-EE19-4F7F-BA46-D2CCCB18FBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{024FD033-EE19-4F7F-BA46-D2CCCB18FBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{024FD033-EE19-4F7F-BA46-D2CCCB18FBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847663AA-5E90-423C-95F5-1D41B1CC306A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847663AA-5E90-423C-95F5-1D41B1CC306A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847663AA-5E90-423C-95F5-1D41B1CC306A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847663AA-5E90-423C-95F5-1D41B1CC306A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F89B1F5-E346-4DE0-BC9A-059EEE74DA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F89B1F5-E346-4DE0-BC9A-059EEE74DA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F89B1F5-E346-4DE0-BC9A-059EEE74DA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F89B1F5-E346-4DE0-BC9A-059EEE74DA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D1D7E6D-6A2F-4FB6-BE45-D6643396A493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1D7E6D-6A2F-4FB6-BE45-D6643396A493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1D7E6D-6A2F-4FB6-BE45-D6643396A493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1D7E6D-6A2F-4FB6-BE45-D6643396A493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC70263-D75C-49B2-8FDB-23CE1BC4EC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC70263-D75C-49B2-8FDB-23CE1BC4EC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC70263-D75C-49B2-8FDB-23CE1BC4EC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC70263-D75C-49B2-8FDB-23CE1BC4EC09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
