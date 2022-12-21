@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopPolymorphsmInterface", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionMethod", "ExlotionMethod\ExtentionMethod.csproj", "{ABC70263-D75C-49B2-8FDB-23CE1BC4EC09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListAndLinQ", "ListAndLinQ\ListAndLinQ.csproj", "{0C87C210-943B-42E6-8ED1-34D7F202078E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{ABC70263-D75C-49B2-8FDB-23CE1BC4EC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABC70263-D75C-49B2-8FDB-23CE1BC4EC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABC70263-D75C-49B2-8FDB-23CE1BC4EC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C87C210-943B-42E6-8ED1-34D7F202078E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C87C210-943B-42E6-8ED1-34D7F202078E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C87C210-943B-42E6-8ED1-34D7F202078E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C87C210-943B-42E6-8ED1-34D7F202078E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
