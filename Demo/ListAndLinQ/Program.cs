@@ -14,29 +14,32 @@ List<Student> list = new()
     new Student() {RollNumber= 3 , FullName="Gin3", Section="dãy nhà số 3" , HosterNumber = 4},
     new Student() {RollNumber= 4 , FullName="Gin4", Section="dãy nhà số 4" , HosterNumber = 6},
 };
+//(
 
-Stopwatch sw= new Stopwatch();
-sw.Restart();
-foreach (var stu in list )
-{
-    Console.WriteLine(stu);
-}
-Console.WriteLine($"foreach time: {sw.ElapsedMilliseconds}");
-sw.Restart();
+//Stopwatch sw= new Stopwatch();
+//sw.Restart();
+//foreach (var stu in list )
+//{
+//    Console.WriteLine(stu);
+//}
+//Console.WriteLine($"foreach time: {sw.ElapsedMilliseconds}");
+//sw.Restart();
 
-//tất cả các dạng của Colection đều có mẫu để duyệt qua dữ liệu
-//mà không dùng for hay foreach => ienumerator
+////tất cả các dạng của Colection đều có mẫu để duyệt qua dữ liệu
+////mà không dùng for hay foreach => ienumerator
 
 
-//chạy nhanh hơn
-IEnumerator enu = list.GetEnumerator();
-//IEnumerator <Student> = list.GetEnumerator();
-while (enu.MoveNext())
-{
-    Console.WriteLine(enu.Current);
-}
-Console.WriteLine($"foreach time: {sw.ElapsedMilliseconds}");
-sw.Restart();
+////chạy nhanh hơn
+//IEnumerator enu = list.GetEnumerator();
+////IEnumerator <Student> = list.GetEnumerator();
+//while (enu.MoveNext())
+//{
+//    Console.WriteLine(enu.Current);
+//}
+//Console.WriteLine($"foreach time: {sw.ElapsedMilliseconds}");
+//sw.Restart();
+
+//)
 
 //linq => language Intergrated query
 
@@ -52,3 +55,22 @@ sw.Restart();
 //linq to object có 2 dạng
 //style 1) theo trường phái sql=> query syntax , dễ học, dễ hiểu
 //style 2) theo trường phái lamda=>method syntax, khó học , rất khó hiểu
+
+//Liệt kê tất cả sinh viên với mã sinh viên phải lớn hơn 2
+
+foreach (var stu in list)
+{
+    if (stu.RollNumber > 2)
+    {
+        Console.WriteLine(stu);
+    }
+}
+Console.WriteLine("-------------------------------------");
+//linq to object style 1
+
+foreach (var st in (from stu in list
+                    where stu.RollNumber > 2
+                    select stu))
+{
+    Console.WriteLine(st);
+}
