@@ -85,5 +85,7 @@ foreach (var st in (from stu in list
     Console.WriteLine(st);
 }
 
-//linq to object sytle 2
+//linq to object sytle 2(lamda => method syntax)
 var liststu = list.Where(stu=>stu.RollNumber > 2);
+ foreach (var st in liststu)
+{ Console.WriteLine(st); }
