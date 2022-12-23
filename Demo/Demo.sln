@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListAndLinQ", "ListAndLinQ\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quanly", "QuanlyNv\Quanly.csproj", "{B68A772A-E991-449B-943B-6496AE869BC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClass", "GenericClass\GenericClass.csproj", "{42F0902F-9D6F-43C3-B6C4-DC71D2CAF7D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericClass", "GenericClass\GenericClass.csproj", "{42F0902F-9D6F-43C3-B6C4-DC71D2CAF7D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateCSharp", "DelegateCSharp\DelegateCSharp.csproj", "{723DABB7-934A-4DF8-938D-0CFFC096CE4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{42F0902F-9D6F-43C3-B6C4-DC71D2CAF7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42F0902F-9D6F-43C3-B6C4-DC71D2CAF7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42F0902F-9D6F-43C3-B6C4-DC71D2CAF7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723DABB7-934A-4DF8-938D-0CFFC096CE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723DABB7-934A-4DF8-938D-0CFFC096CE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723DABB7-934A-4DF8-938D-0CFFC096CE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723DABB7-934A-4DF8-938D-0CFFC096CE4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
