@@ -1,4 +1,6 @@
-﻿Console.OutputEncoding = Encoding.Unicode;
+﻿using System.Net;
+
+Console.OutputEncoding = Encoding.Unicode;
 Console.InputEncoding = Encoding.Unicode;
 
 List<Student> list = new()
@@ -56,14 +58,14 @@ List<Student> list = new()
 
 //Liệt kê tất cả sinh viên với mã sinh viên phải lớn hơn 2
 
-foreach (var stu in list)
-{
-    if (stu.RollNumber > 2)
-    {
-        Console.WriteLine(stu);
-    }
-}
-Console.WriteLine("--------------------------");
+//foreach (var stu in list)
+//{
+//    if (stu.RollNumber > 2)
+//    {
+//        Console.WriteLine(stu);
+//    }
+//}
+//Console.WriteLine("--------------------------");
 //linq to object style 1
 
 //var lisstu = from stu in list 
@@ -125,11 +127,79 @@ Console.WriteLine("--------------------------");
 //        };
 //r.ToList().ForEach(Console.WriteLine);
 
-var r = from stu in list
-        where stu.RollNumber > 2
-        select new // anonymous type
-        {
-            StudentDetail = $"{stu.RollNumber} : {stu.FullName}",
-            StudentRoom   = $"{stu.Section} : {stu.HosterNumber}" 
-        };
-r.ToList().ForEach(Console.WriteLine);
+
+//var r = from stu in list
+//        where stu.RollNumber > 2
+//        select new // anonymous type
+//        {
+//            StudentDetail = $"{stu.RollNumber} : {stu.FullName}",
+//            StudentRoom   = $"{stu.Section} : {stu.HosterNumber}" 
+//        };
+//r.ToList().ForEach(Console.WriteLine);
+//// Query Sytax
+
+
+//list.Select(stu=>new
+//    {
+//        StudentDetail = $"{stu.RollNumber} : {stu.FullName}",
+//        StudentRoom = $"{stu.Section} : {stu.HosterNumber}"
+//    }).ToList().ForEach(Console.WriteLine);
+////Method Sytax
+
+
+//foreach(var stu in list)
+//{
+//    Console.WriteLine(stu);
+//}
+
+//IEnumerator enu = list.GetEnumerator();
+//while (enu.MoveNext())
+//{
+
+//}
+
+//từ khi có linq
+
+//var t = from stu in list
+//        select stu;
+
+//linq to Object
+//lần đầu tiên nó sễ thực thi trên Sever và trả về bộ nhớ
+
+//select * from list where rollnumber >2
+//IEnumerable<Student> i = from stu in list
+//                         where stu.RollNumber > 2
+//                         select stu;
+
+
+
+//i = i.Take(2);
+////==================================================
+//IQueryable<Student> u = from stu in list.AsQueryable()
+//                        where stu.RollNumber > 2
+//                        select stu;
+//select top(2) * from list where rollnumber >2
+//sẽ chạy lên sever lần nữa
+//Linq 
+//u = u.Take(2);
+////=====================================================
+
+//var k = from stu in list
+//        where stu.RollNumber > 2
+//        select stu;
+//k.ToList().ForEach(Console.WriteLine);
+
+//=============================================================
+//sắp xếp
+
+var obj1 = from stu in list
+           where stu.RollNumber >5
+           orderby stu.Section descending, stu.HosterNumber ascending
+           select stu;
+
+var obj2 = list.OrderByDescending(stu => stu.Section)
+               .OrderBy(stu => stu.HosterNumber);
+
+var obj3 = list.Where(stu=>stu.RollNumber >5)
+               .OrderByDescending(stu => stu.Section)
+               .ThenBy(stu => stu.HosterNumber);
