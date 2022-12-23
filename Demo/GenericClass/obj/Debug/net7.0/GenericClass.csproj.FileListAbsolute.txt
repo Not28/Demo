@@ -1,0 +1,15 @@
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\bin\Debug\net7.0\GenericClass.exe
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\bin\Debug\net7.0\GenericClass.deps.json
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\bin\Debug\net7.0\GenericClass.runtimeconfig.json
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\bin\Debug\net7.0\GenericClass.dll
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\bin\Debug\net7.0\GenericClass.pdb
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\GenericClass.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\GenericClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\GenericClass.AssemblyInfoInputs.cache
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\GenericClass.AssemblyInfo.cs
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\GenericClass.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\GenericClass.dll
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\refint\GenericClass.dll
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\GenericClass.pdb
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\GenericClass.genruntimeconfig.cache
+C:\Users\MSI\source\repos\Demo\Demo\GenericClass\obj\Debug\net7.0\ref\GenericClass.dll
