@@ -78,39 +78,58 @@ Console.WriteLine("--------------------------");
 //linq to object style 1 rút gọn
 
 
-foreach (var st in (from stu in list
-                    where stu.RollNumber > 2
-                    select stu))
-{
-    Console.WriteLine(st);
-}
+//foreach (var st in (from stu in list
+//                    where stu.RollNumber > 2
+//                    select stu))
+//{
+//    Console.WriteLine(st);
+//}
 
 //linq to object sytle 2(lamda => method syntax)
-var liststu = list.Where(stu=>stu.RollNumber > 2);
- foreach (var st in liststu)
-{ Console.WriteLine(st); }
+//var liststu = list.Where(stu=>stu.RollNumber > 2);
+// foreach (var st in liststu)
+//{ Console.WriteLine(st); }
 
 //linq to object sytle 2 rút gọn
-foreach (var st in list.Where(stu => stu.RollNumber >2))
-{
-    Console.WriteLine(st);
-}
+//foreach (var st in list.Where(stu => stu.RollNumber >2))
+//{
+//    Console.WriteLine(st);
+//}
 
 //các phương thức có sẵn trong list
-list.ForEach(Console.WriteLine);
-list.ForEach(stu => Console.WriteLine(stu));
+//list.ForEach(Console.WriteLine);
+//list.ForEach(stu => Console.WriteLine(stu));
 
-list.ForEach(
-        stu =>
-        {
-            if (stu.RollNumber >2)
-            {
-                Console.WriteLine(stu);
-            }
-        }
-    );
+//list.ForEach(
+//        stu =>
+//        {
+//            if (stu.RollNumber >2)
+//            {
+//                Console.WriteLine(stu);
+//            }
+//        }
+//    );
 
 //kết hợp lamda với phương thức có sẵn trong list
-list.Where(stu => stu.RollNumber > 2)
-    .ToList()
-    .ForEach(Console.WriteLine);
+//list.Where(stu => stu.RollNumber > 2)
+//    .ToList()
+//    .ForEach(Console.WriteLine);
+
+
+//var r = from stu in list
+//        where stu.RollNumber > 2
+//        select new // anonymous type
+//        {
+//            stu.RollNumber,
+//            stu.FullName
+//        };
+//r.ToList().ForEach(Console.WriteLine);
+
+var r = from stu in list
+        where stu.RollNumber > 2
+        select new // anonymous type
+        {
+            StudentDetail = $"{stu.RollNumber} : {stu.FullName}",
+            StudentRoom   = $"{stu.Section} : {stu.HosterNumber}" 
+        };
+r.ToList().ForEach(Console.WriteLine);
