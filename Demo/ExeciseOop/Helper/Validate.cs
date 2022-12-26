@@ -34,7 +34,12 @@ internal class Validate<T>
                         if ((double)obj < 0) throw new Exception("Value must be greter than zero");
                         break;
                     case TypeCode.DateTime:
-                        var date = DateTime.TryParseExact(str, new[] {"d/M/yyyy","d-M-yyyy"}, new CultureInfo("vi-vn"), DateTimeStyles.None, out var t)? t: throw new Exception("datetime wrong (d/M/yyyy or d-M-yyyy)")  
+                        var date = DateTime.TryParseExact(str, new[] { "d/M/yyyy", "d-M-yyyy" }, new CultureInfo("vi-vn"), DateTimeStyles.None, out var t) ? t : throw new Exception("datetime wrong (d/M/yyyy or d-M-yyyy)");
+                        obj = date.Add(DateTime.Now.TimeOfDay);
+                        break;
+                    case TypeCode.Char:
+                        obj = Convert.ToChar(str);
+                        if(!obj .In('y','n')) throw new Exception("error , must be y or n")
                         break;
                     default:
                         obj = null;
