@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DelegateCSharp;
+//safe thread
 delegate void Abc ( int a , int b );
 internal class Mathems
 {

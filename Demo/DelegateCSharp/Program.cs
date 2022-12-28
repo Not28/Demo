@@ -9,4 +9,5 @@
 
 //delegate
 Abc dele = new Mathems().Multi;
+dele += new Mathems();
 dele(10, 5);

@@ -10,6 +10,11 @@ internal class DalProduct : IProduct
     {
         Console.WriteLine("enter the number");
         var on = Validate <int>.CheckReadLine();
-        for (int i = 0; i < n; i++) { }
+        for (int i = 0; i < n; i++) 
+        {
+            //var pro = new Product();
+            Products products= new Products();
+            Console.WriteLine($"product[{i+1}] => enter id ");
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿
 
+using ExeciseOop.ExtentionMethod;
 using System.Globalization;
 using System.Linq.Expressions;
 
@@ -39,7 +40,7 @@ internal class Validate<T>
                         break;
                     case TypeCode.Char:
                         obj = Convert.ToChar(str);
-                        if(!obj .In('y','n')) throw new Exception("error , must be y or n")
+                        if (!obj.In('y', 'n')) throw new Exception("error , must be y or n");
                         break;
                     default:
                         obj = null;
