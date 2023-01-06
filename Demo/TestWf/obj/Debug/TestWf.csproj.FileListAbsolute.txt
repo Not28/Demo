@@ -1,0 +1,11 @@
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\bin\Debug\TestWf.exe.config
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\bin\Debug\TestWf.exe
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\bin\Debug\TestWf.pdb
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\obj\Debug\TestWf.csproj.AssemblyReference.cache
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\obj\Debug\TestWf.csproj.SuggestedBindingRedirects.cache
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\obj\Debug\TestWf.Form1.resources
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\obj\Debug\TestWf.Properties.Resources.resources
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\obj\Debug\TestWf.csproj.GenerateResource.cache
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\obj\Debug\TestWf.csproj.CoreCompileInputs.cache
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\obj\Debug\TestWf.exe
+C:\Users\MSI\source\repos\Demo\Demo\TestWf\obj\Debug\TestWf.pdb
